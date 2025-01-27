@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
         <ul className="flex flex-row items-center gap-8">
             <li>
-                <Link href="/library" className={cn("text-base cursor-pointer capitalize",pathname === "/library" ? "text-light-100" : "text-light-200")}>
+                <Link href="/library" className={cn("text-base cursor-pointer capitalize",pathname === "/library" ? "text-light-200" : "text-light-100")}>
                 Library
                 </Link>
             </li>
