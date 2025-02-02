@@ -36,7 +36,7 @@ const Header = ({ session }: { session: Session }) => {
             </Avatar>
           </Link>
         </li>
-        <Link href="/ContactUs">Contact</Link>
+        {/* <Link href="/ContactUs">Contact</Link> */}
       </ul>
     </header>
   );

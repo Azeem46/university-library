@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import React from "react";
 import "@/styles/admin.css";
 import Sidebar from "@/components/admin/Sidebar";
-import Header from "@/components/Header";
+import Header from "@/components/admin/Header";
 
 const Layout = async ({ children }: { children: React.ReactNode }) => {
   const session = await auth();
